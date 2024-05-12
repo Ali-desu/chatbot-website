@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /*courier new monospace*/
+    font-family: 'Andale Mono', monospace;
+    overflow: hidden;
+    background-image: linear-gradient(to right top, #5d6f65, #5f7166, #627368, #647569, #67776a, #6e7a6a, #757d6b, #7c7f6c, #8b826f, #998575, #a5887f, #af8c8c);
+    height:100vh;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border:1px solid black;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    border-radius:30px;
+    background: #fff;
+}
+
+#logo{
+   width:100px;
+}
+
+.description{
+    text-align: center;
+    padding:20px 70px;
+    border:1px solid white;
+}
+
+.capabilities{
+    display: flex;
+    justify-content: space-around;
+    border:1px solid black;
+    padding:30px;
+    border-radius:30px;
+    gap:10px;
+    
+}
+
+.card{
+    flex:1 1 0;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    gap:10px;
+    border:1px solid black;
+    padding:10px;
+    border-radius:30px;
+
+
+}
+
+.card i{
+    font-size: 20px;
+}
+
