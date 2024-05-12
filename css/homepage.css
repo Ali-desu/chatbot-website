@@ -8,8 +8,13 @@ body{
     /*courier new monospace*/
     font-family: 'Andale Mono', monospace;
     overflow: hidden;
-    background-image: linear-gradient(to right top, #5d6f65, #5f7166, #627368, #647569, #67776a, #6e7a6a, #757d6b, #7c7f6c, #8b826f, #998575, #a5887f, #af8c8c);
+    /*background-image: linear-gradient(to right top, #5d6f65, #5f7166, #627368, #647569, #67776a, #6e7a6a, #757d6b, #7c7f6c, #8b826f, #998575, #a5887f, #af8c8c);*/
+    background: #3A3335;
     height:100vh;
+}
+
+h1 ,h2{
+    color:#EB5E55;
 }
 
 .container{
@@ -24,11 +29,12 @@ body{
     align-items: center;
     gap:20px;
     border-radius:30px;
-    background: #fff;
+    background:#FDF0D5;
+    color:#3A3335;
 }
 
 #logo{
-   width:100px;
+   width:80px;
 }
 
 .description{
@@ -62,5 +68,34 @@ body{
 
 .card i{
     font-size: 20px;
+    color:lightgreen;
 }
 
+.chat-input{
+    background:white;
+    border:1px solid black;
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:flex-start;
+    border-radius:15px;
+    padding:5px 10px;
+}
+
+.chat-input input{
+    padding:10px;
+    font-size:15px;
+    border:none;
+    border-radius:30px;
+    outline:none;
+    width:100%;
+}
+
+.chat-input button{
+    padding:10px;
+    border:none;
+    border-radius:5px;
+    background:lightgreen;
+    color:white;
+    cursor:pointer;
+}

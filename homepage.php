@@ -39,10 +39,11 @@
             </div>
         </div>
 
-        <div class="chat-box" id="chat-box"></div>
+        
         <div class="chat-input">
+            <img src="ChatGPT-Logo.png" id="logo">
             <input type="text" id="user-input" placeholder="Type a message...">
-            <button id="send-btn">Send</button>
+            <button id="send-btn"><i class="fa-solid fa-arrow-right"></i></button>
         </div>
     </div>
 </body>
